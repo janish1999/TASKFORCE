@@ -1,0 +1,36 @@
+#check .container{
+    position: absolute;
+    height: 100%;
+    display: table;
+}
+
+#check .Heading{
+    display: table-cell;
+    padding: 300px;
+    vertical-align: middle;
+}
+#check h1 {
+    vertical-align: middle;
+    font-style: revert;
+}
+#check h6 {
+    vertical-align: middle;
+    font-style: italic;
+}
+
+.link{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.background{
+    position: relative;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    filter: brightness(.6);
+}
